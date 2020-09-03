@@ -97,7 +97,7 @@ public class HttpRequestHandler {
      * Multiple parameters given (see that 'method' can have multiple values assigned
      * Just a brief example/demonstration
      * NOTE: MIME type 'x-www-form-urlencoded' works with curl, at least. Change it if needed.
-     * curl 'http://localhost:8080/index' --data 'location=moon&name=John'
+     * curl 'http://localhost:8080/hello' --data 'location=moon&name=John'
      *
      */
     @RequestMapping(
