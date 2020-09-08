@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- <title th:text="${}">Title</title> -->
+    <title>Hello page</title>
+</head>
+
+    <div th:if="${T(Integer).parseInt(param.age)} ge 18">
+        <div th:text="'Welcome ' + ${#strings.capitalize(param.name)} + '!'">
+            Undefined name
+        </div>
+    </div>
+    <div th:unless="${T(Integer).parseInt(param.age)} ge 18">
+        <div>You are too young!</div>
+    </div>
+
+<body>
+
+</body>
+</html>
