@@ -11,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
@@ -25,7 +26,7 @@ public class FriendController {
     private HttpServerLogger     httpServerLogger     = new HttpServerLogger();
     private HttpExceptionHandler httpExceptionHandler = new HttpExceptionHandler();
 
-    private ArrayList<Friend>    friendList           = new ArrayList<>();
+    private List<Friend>         friendList           = new ArrayList<>();
 
     // NOTE NOTE
     // We could alternatively use two attributes (firstName & lastName) for names.
