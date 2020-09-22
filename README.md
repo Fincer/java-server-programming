@@ -10,11 +10,12 @@ This repository contains various project exercises, known as `chapters`. Externa
 
 ### Chapters
 
-|             Chapter              |    Description   |
-|----------------------------------|------------------|
-| [Chapter 0](exercises/chapter_0) |    Hello World   |
-| [Chapter 1](exercises/chapter_1) |   HTTP Requests  |
-| [Chapter 2](exercises/chapter_2) | Thymeleaf basics |
+|             Chapter                     |    Description   |
+|-----------------------------------------|------------------|
+| [Chapter 0](exercises/chapter_0)        |    Hello World   |
+| [Chapter 1](exercises/chapter_1)        |   HTTP Requests  |
+| [Chapter 2](exercises/chapter_2)        | Thymeleaf basics |
+| [JDBC](exercises/spring-jdbc-test)      |    JDBC Tests    |
 
 ### Project work
 

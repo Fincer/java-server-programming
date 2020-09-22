@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Customer SQL data dump</title>
+
+</head>
+<body>
+
+	<h1>Customer SQL data dump</h1>
+	
+	<table>
+	
+		<tr>
+			<th>First Name</th>
+			<th>First Name</th>
+			<th>Sex</th>
+			<th>Language</th>
+			<th>Engagement Level</th>
+			<th>Email Address</th>
+			<th>Phone Number</th>
+		</tr>
+		
+		<tr th:each="customer : ${customers}">
+			<td th:text="${customer.firstName}"></td>
+			<td th:text="${customer.lastName}"></td>
+			<td th:text="${customer.sex}"></td>
+			<td th:text="${customer.language}"></td>
+			<td th:text="${customer.engagement}"></td>
+			<td th:text="${customer.email}"></td>
+			<td th:text="${customer.phone}"></td>
+		</tr>
+	
+	</table>
+
+</body>
+</html>
